@@ -52,7 +52,7 @@ body{
 
 .options, .sketchpad{
     background-color: #ffffff;
-    height: 750px;
+    height: 700px;
 }
 
 .options{
@@ -67,5 +67,9 @@ body{
 }
 
 .sketchpad{
-    width: 900px;
+    width: 700px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
 }

@@ -28,7 +28,43 @@
     <div class="hero-contianer">
         <div class="hero">
             <div class="options">
+                <div class="size-container">
+                    <div class="size-txt">
+                        Change Grid Size
+                    </div>
+                    <input type="range" min="16" max="100" value="50" id="grid-size">
+                    <button id="createGrid">
+                        Create pad
+                    </button>
+                </div>
+                <div class="color-contianer">
+                    <div class="size-txt">
+                        Color
+                    </div>
+                    <div class="color-picker">
+                        <button class="color-val">
+                            pick color
+                            <input id="selectedColor" type="color" value="#rrggbb">
+                        </button>
+                    </div>
+                    <div class="randomize-btn">
+                        <div class="size-txt">
+                            Erase
+                        </div>
+                        <button id="randomize" value="0">
+                            Random
+                        </button>
+                    </div>
+                </div>
+                <div class="eraser-container">
+                    <button id="eraser" value="0">Erase</button>
+                </div>
+                <div class="fill-color-container">
 
+                </div>
+                <div class="eraser-container">
+
+                </div>
             </div>
             <div class="sketchpad-container">
                 <div class="sketchpad">
